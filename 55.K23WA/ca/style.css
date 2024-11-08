@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
+}
+header > h1 {
+    font-size: xx-large;
+}
+
+
+.container {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+}
+
+.waste {
+    width: 20vh;
+    height: auto;
+}
+.namenities {
+    padding: 20px;
+    max-width: 15vw;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+main.flex-container {
+    display: flex;
+    padding: 10px;
+    /* width: 100%; */
+}
+
+.property-input {
+    display: flex;
+    flex-direction: column;
+    width: 30%; /* Adjust as needed */
+    /* margin-bottom: 30px; */
+    padding: 20px;
+    max-width: 15vw;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px; /* Adjust the padding to increase the button size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  0.2s; /* Add a transition for a smooth hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+    transform: scale(1.05); /* Increase the size on hover (adjust the scale factor as needed) */
+}
+
+.analysis-results {
+    /* margin-top: 30px; */
+    background-color: rgb(247, 228, 195);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    /* margin-left: 10vw; */
+    /* flex-direction: row-reverse; */
+    /* width: 30%; */
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#analysis-output {
+    padding: 0;
+    border: none;
+    display: flex;
+}
+
+.analysis-output table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}

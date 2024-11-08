@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: red;
+    padding: 100px;
+    margin-left: 40px;
+}
+p{
+    font-size: 100px;
+    text-align: center;
+    color: aqua;
+    font-style: initial;
+}
+span{
+    font-style: oblique;
+    margin-left: 0%;
+
+}
+body{
+    background-image: url("ss2.jpg");
+    background-size: cover;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
